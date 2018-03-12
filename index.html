@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/bootstrap.css">
+    <script src="Js/jquery-3.3.1.js"></script>
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <script src="Js/bootstrap.js"></script>
+    <script src="Js/index.js"></script>
+    <link rel="stylesheet" href="Css/index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-10 offset-1 mt-5">
+                <div class="row">
+                    <div class="col-6 offset-3">
+                        <h1 class="text-center pl-0">TODO LIST</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 offset-3">
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 offset-3">
+                        <div class="input-group mb-3">
+                            <input type="text" id="todo-tasks" class="form-control" placeholder="Task" aria-label="Recipient's username" aria-describedby="basic-addon2" style="text-align:center">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-primary" id="addButton">
+                                    <i class="fas fa-plus-circle" ></i>
+                                </button>
+                                <button class="btn btn-outline-danger" id="deleteButton">
+                                    <i class="fas fa-trash"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="list-group" id="todosAppend">
+                    <!--<li class="list-group-item">-->
+                        <!--<div class="row mt-4">-->
+                            <!--<div class="col offset-3 pl-3 pr-0">-->
+                                <!--<input type="checkbox" class="mr-0">-->
+                                <!--<span class="todoItem">Task1 </span>-->
+                                <!--<i class="fas fa-chevron-up up"></i>-->
+                                <!--<i class="fas fa-chevron-down"></i>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</li>-->
+                    <!--<li class="list-group-item">-->
+                        <!--<div class="row mt-0 taskItem">-->
+                            <!--<div class="col offset-3 pl-3 pr-0">-->
+                                <!--<input type="checkbox" class="mr-0">-->
+                                <!--<span class="todoItem">Task1 </span>-->
+                                <!--<i class="fas fa-chevron-up up"></i>-->
+                                <!--<i class="fas fa-chevron-down"></i>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</li>-->
+                </ul>
+            </div>
+        </div>
+    </div>
+     
+</body>
+</html>

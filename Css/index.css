@@ -1,0 +1,31 @@
+.todoItem
+{
+    background-color:lightgreen! important;
+    border-radius: 15px;
+    display: inline-block;
+    margin-left: 1%;
+    width: 47%;
+    margin-right: 4.9%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
+.up{
+    margin-right:3.5%;
+}
+li{
+    border: 0 !important;
+}
+#todosAppend > li:first-child .fa-chevron-up {
+    visibility: hidden;
+    pointer-events: none;
+}
+
+#todosAppend > li:last-child:not(:first-child) .fa-chevron-down {
+    visibility: hidden;
+    pointer-events: none;
+}
+.checked{
+    background-color: lightcoral !important;
+    text-decoration: line-through;
+}
